@@ -20,7 +20,7 @@ Everything runs on your laptop (tested design target: **RTX 4050, 6 GB VRAM**) t
    - A free [Tavily API key](https://app.tavily.com) (optional; only needed for the web fallback)
 2. **Get the code**
    ```bash
-   git clone https://github.com/<your-username>/self-crag.git
+   git clone https://github.com/pratyush-vats/self-crag.git
    cd self-crag
    ```
 3. **Create the environment and install packages**
@@ -348,7 +348,7 @@ git status                      # make sure .env, data/ and chroma_db/ are NOT l
 git commit -m "Self-CRAG: self-correcting agentic RAG for syllabus Q&A"
 git branch -M main
 # create an empty repo on github.com first, then:
-git remote add origin https://github.com/<your-username>/self-crag.git
+git remote add origin https://github.com/pratyush-vats/self-crag.git
 git push -u origin main
 ```
 
