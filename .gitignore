@@ -1,0 +1,12 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# datasets and vector store are never committed (GitHub rejects files > 100 MB)
+data/
+chroma_db/
+public_url.txt
+*.zip

@@ -1,0 +1,7 @@
+[server]
+headless = true
+# lets you upload the ~230 MB dataset zip from the browser sidebar
+maxUploadSize = 1024
+
+[browser]
+gatherUsageStats = false
